@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    .container {
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      background-color: #d5e1ef;
+      justify-content: center;
+      align-items: center;
+    }
+    .whitebox {
+      background-color: #ffffff;
+      width: 400px;
+      height: 560px;
+      border: 10px solid #d5e1ef;
+      border-radius: 8%;
+    }
+    img {
+      border-radius: 8%;
+      width: 380px;
+      height: 360px;
+      border: 10px solid #ffffff;
+    }
+    .headingtext {
+      font-family: "Outfit";
+      font-weight: 700;
+      font-style: normal;
+      text-align: center;
+      font-size: 25px;
+    }
+    .paragraphtext {
+      padding-top: 18px;
+      font-family: "Outfit";
+      font-weight: 300;
+      font-style: normal;
+      font-size: 15px;
+      text-align: center;
+    }
+    .footer { 
+      position: absolute; 
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="whitebox">
+      <div class="image"><img src="/images/image-qr-code.png"></div>
+      <div class="headingtext">Improve your front-end <br> skills by building projects</div>
+      <div class="paragraphtext">Scan the QR code to visit Frontend <br>
+        Mentor and take your coding skills to <br>
+        the next level</div>
+    </div>
+  <div class="footer">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by Saad</p>
+  </div>
+</body>
+</html>
